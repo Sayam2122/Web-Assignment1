@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My IIT Bombay Journey</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header with Navigation Bar -->
+    <header>
+        <div class="container">
+            <h1>My IIT Bombay Journey</h1>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="#intro">Introduction</a></li>
+                    <li><a href="#timeline">Timeline</a></li>
+                    <li><a href="#learnings">Learnings</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#guestbook">Guestbook</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <style>
+            body {
+                background-image: url('back2.jpg');    
+                background-attachment: fixed;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+        </style>
+
+    <!-- Introduction Section -->
+    <section id="intro" class="section">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hello! I'm a sophomore at IIT Bombay, pursuing a B.Tech in Mechanical Engineering. My journey at IITB has been a rollercoaster of learning, friendships, and unforgettable moments. From late-night coding sessions to vibrant fests, here's a glimpse of my life on campus!</p>
+        </div>
+    </section>
+
+    <!-- Timeline Section -->
+    <section id="timeline" class="section">
+        <div class="container">
+            <h2>Milestones</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>July 2024: First Day at IITB</h3>
+                        <p>Stepped into the lush green campus, nervous yet excited. Met my hostel mates and explored the iconic Main Building.</p>
+                        <img src="main.jpg" alt="IITB Main Building">
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>December 2024: Mood Indigo Fest</h3>
+                        <p>Volunteered for Mood Indigo, IITB's cultural fest. Danced, laughed, and made lifelong friends.</p>
+                        <img src="mood.jpg" alt="Mood Indigo Event">
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Summer 2025: First Internship</h3>
+                        <p>Interned at a tech startup, applying my coding skills to real-world problems. A huge learning curve!</p>
+                        <img src="intern.jpg" alt="Internship Project">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Learnings and Growth Section -->
+    <section id="learnings" class="section">
+        <div class="container">
+            <h2>Learnings & Growth</h2>
+            <p>At IITB, I've grown both academically and personally. I've completed 62 credits, joined the Coding Club, and working on various project. My favorite course so far is Data Structures, which sharpened my problem-solving skills.</p>
+            <div class="stats">
+                <div class="stat-item">
+                    <h3>62</h3>
+                    <p>Credits Completed</p>
+                </div>
+                <div class="stat-item">
+                    <h3>3</h3>
+                    <p>Clubs Joined</p>
+                </div>
+                <div class="stat-item">
+                    <h3>5</h3>
+                    <p>Projects Done</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Photo Gallery Section -->
+    <section id="gallery" class="section">
+        <div class="container">
+            <h2>Photo Gallery</h2>
+            <div class="gallery">
+                <img src="campus.jpg" alt="Campus Life">
+                <img src="hostel.jpg" alt="Hostel Night">
+                <img src="tech.jpg" alt="Techfest">
+                <img src="friends.jpg" alt="Friends Group">
+            </div>
+        </div>
+    </section>
+
+    <!-- Guestbook Section (Interactive) -->
+    <section id="guestbook" class="section">
+        <div class="container">
+            <h2>Leave a Message</h2>
+            <form id="guestbook-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
+                <label for="message">Message:</label>
+                <textarea id="message" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+            <div id="messages"></div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 My IITB Journey. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="https://www.iitb.ac.in" target="_blank">IIT Bombay</a>
+                <a href="https://www.linkedin.com" target="_blank">LinkedIn</a>
+                <a href="https://www.github.com" target="_blank">GitHub</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
